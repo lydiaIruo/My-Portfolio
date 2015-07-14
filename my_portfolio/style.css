@@ -1,0 +1,286 @@
+body{	
+	margin:0px;
+	padding:0px;
+	background:#ffffff;
+}
+body,header,footer,aside,article{
+	display:block;
+}
+#Wrapper{
+	width:960px;
+	margin:0 auto;	
+	background:#408080;
+}
+header{
+	width:960px;
+	height:120px;
+	background:url(images/logo5.png);
+	margin:0px;
+	padding:0px;
+}
+nav{
+	width:500px;
+	height:50px;
+	background:#ffffff;
+	float:right;
+	font-size:18px;
+	margin-top:50px;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{	
+	height:30px;
+	display:block;
+	list-style: none;
+	float:left;
+	color:#0C6;	
+	margin-right:30px;
+	width:60px;
+}
+nav a{
+	display:block;
+	color:#0C6;
+	text-decoration:none;
+	height:10px;	
+}
+nav a:hover{
+	display:block;
+	height:10px;	
+	color:#000;
+	opacity:0.8;
+	font-weight:bold;
+}
+nav a:active{
+	color:#000000;
+}
+#image{
+	width:300px;
+	height:250px;
+	margin:20px;
+	float:left;
+}
+#image img{
+	width:300px; 
+	height:250px;
+}
+#me{
+	float:left;
+	width:545px;
+	height:280px;
+	margin-top:20px;
+	padding-left:70px;
+	background:#ffffff;
+}
+#circle1,#circle2,#circle3{
+	text-align:center;
+	border-bottom-right-radius:60px;
+	border-top-right-radius:60px;
+	border-bottom-left-radius:60px;
+	border-top-left-radius:60px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-right:50px;
+	float:left;
+	font-weight:700;
+}
+#circle1{
+	width:85px;
+	background:#96C;
+	height:60px;	
+	padding:20px 10px 20px 5px;
+	font-size:22px;
+}
+#circle2{
+	width:90px;
+	background:#990;
+	height:60px;
+	padding:20px 5px 20px 5px;
+	font-size:22px;
+}
+#circle3{
+	width:100px;
+	background:#F99;
+	height:50px;
+	font-size:22px;
+	padding:25px 0px 25px 0px;
+}
+#circle1 a,#circle2 a{
+	color:#ffffff;
+	font-size:22px;
+	text-decoration:none;
+}
+#circle3 a{
+	color:#ff0000;
+	font-size:22px;
+	text-decoration:none;
+}
+#work1,#work2,#work3,#work4{
+	float:left;
+	margin-left:16px;
+	margin-top:20px;
+	border:2px #000000 solid;
+	display:block;
+	}
+#work_intro{
+	width:958px;
+	height:50px;
+	color:#555;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-top:10px;
+	text-align:center;
+	font-size:16px;	
+}
+#me a:hover{
+	display:block;
+	color:#ffffff;
+	opacity:0.8;
+	font-size:22px;	
+}
+#me h1{
+	color:#555;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#me p{
+	color:#999;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:500;
+	font-size:22px;
+}
+article{
+	width:958px;
+	float:left;
+	background:#FFFAF0;
+	border:1px #ccc ridge;
+	height:auto;
+	margin-top:5px;
+ 	float:red;
+}
+#article2{
+	height:950px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+#article3{
+	height:400px;
+	text-align:left;
+	width:918px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:#fffaf0;
+	font-size:16px;
+	color:#333555;
+	float:left;
+	padding:20px;
+}
+#article3 a{
+	text-decoration:none;
+	color:#333555;
+}
+#article3 h5{
+	text-align:center;
+}
+.head_resume{
+	text-align:left;
+	background:#022;
+	width:949px;
+	color:#ffffff;	
+	height:22px;
+	float:left;
+	font-size:20px;
+	padding:5px;
+}
+.style{
+	color:#444;
+}
+#body_resume1,#body_resume2,#body_resume3,#body_resume4,#body_resume5,#body_resume6{
+	background:#ffffff;
+	float:left;
+	line-height:20px;	
+}
+#body_resume1{
+	width:958px;	
+	height:40px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+#body_resume2{
+	width:950px;	
+	height:80px;
+	text-align:left;
+	margin-top:10px;
+}
+#body_resume3{
+	width:950px;	
+	height:100px;
+	text-align:left;
+	margin-top:10px;
+}
+#body_resume4{
+	width:950px;	
+	height:100px;
+	text-align:center;
+	color:#444;
+	margin-top:10px;
+}
+#body_resume5{
+	width:950px;	
+	height:240px;
+	text-align:left;
+	color:#444;
+	margin-top:10px;
+}
+#body_resume6{
+	width:958px;	
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#666;
+	text-align:center;
+}
+#gist{
+	padding:0px 10px 0px 20px;
+	text-align:justify;
+	line-height:20px;
+	float:left;
+	width:918px;
+}
+#gist p{
+	color:#333;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+}
+#work_big1,#work_big2,#work_big3,#work_big4{
+	width: 30%;
+	height: 30%;
+ }
+
+.my_sweet_work{
+	width:250px;
+	height: 250px;
+	border:1px #202 solid;
+	margin-left:10px;
+}
+.my_sweet_work:hover{
+	width: 900px;
+	height: 450px;
+	z-index :5;
+	margin-left:30px;
+	border:1px #202 solid;
+}
+footer{
+	width: 960px;
+	padding-top: 10px;
+	text-align: center;
+	background:#408080; 
+	height: 30px;
+	float: left;
+	clear: both;
+	color: #ffffff;
+	font-family: "Courier New", Courier, monospace;
+}
+#foot{
+	color:#0FF;
+	background:#033;
+}
